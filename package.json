@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/freestyle09/node.js-app/issues"
   },
-  "homepage": "https://github.com/freestyle09/node.js-app#readme"
+  "homepage": "https://github.com/freestyle09/node.js-app#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.0.0",
+    "mongoose": "^5.3.4",
+    "underscore": "^1.9.1"
+  }
 }
