@@ -9,6 +9,10 @@
 
 const express = require("express");
 const app = express();
+const logger = require("./logging");
+
+app.use(express.json());
+app.use(logger);
 
 app.get("/", (req, res) => {
   res.send("Hello World");
